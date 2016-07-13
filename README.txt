@@ -1,8 +1,12 @@
 1.INTRODUCTION
 
 This project contains a code  of a CMSSW  analyzer for extracting jets from MINIAOD data.
-Analyzer was created by 'mkedanlzr' command and contains one plugin - MyJetAnalyzer.cc
+Analyzer was created by 'mkedanlzr' command and contains one plugin - MyJetAnalyzer.cc, so
+code should be used from CMSSW_X_X_X/src/analyzer/analyzer/>
 Also crab.py configuration for CRAB3 and JSON files with good lumisections are included.
+
+More detailed information on INPUT parameters for the analysis in INPUT_INFO 
+(but some of text is in Russian)
 
 2. DATASETS
 
