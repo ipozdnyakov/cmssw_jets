@@ -1,0 +1,149 @@
+1. For the analysis one need a data:
+	- proton-proton 
+	- 13 TeV
+	- low pile-up
+	GLOBAL_RUN -> 		Fill -> 				run -> 					lumi_section(good_lumi) -> 	banch_crossing  -> Event -> PV
+	 ~1 (год)     		х10^3 (часы)   	х10^2 (минуты-часы)			х10^2 (секунды-минуты)
+
+2. Two periods of low-pile-up data taking
+
+Правила наименования датасетов
+https://twiki.cern.ch/twiki/bin/view/CMSPublic/CompOpsTier0DatasetNaming
+https://twiki.cern.ch/twiki/bin/view/CMS/DMWMPG_PrimaryDatasets
+https://twiki.cern.ch/twiki/bin/view/CMS/DMWMPG_Namespace
+Цифра в конце - просто часть датасета
+
+___VdM scan #VdM august (CMSSW_7_4_14, GT 74X_dataRun2_v4  --> CMSSW_7_6_3, GT 76X_dataRun2_v15)
+	Cert_254986-255031_13TeV_PromptReco_Collisions15_LOWPU_25ns_JSON.txt
+еще немножко неучтенных данных в Cert_246908-252126_13TeV_PromptReco_Collisions15_LOWPU_50ns_JSON.txt 
+
+		/ZeroBias1/Run2015C_25ns-05Oct2015-v1/MINIAOD-->/ZeroBias1/Run2015C_25ns-16Dec2015-v1/MINIAOD
+				/store/data/Run2015C_25ns/ZeroBias1/MINIAOD/05Oct2015-v1/20000/464248B3-397E-E511-8DF2-002618943829.root
+					-->/store/data/Run2015C_25ns/ZeroBias1/MINIAOD/16Dec2015-v1/20000/004E276A-C5B4-E511-BBD5-20CF305B052B.root
+		/ZeroBias2/Run2015C_25ns-05Oct2015-v1/MINIAOD-->/ZeroBias2/Run2015C_25ns-16Dec2015-v1/MINIAOD
+		/ZeroBias3/Run2015C_25ns-05Oct2015-v1/MINIAOD-->/ZeroBias3/Run2015C_25ns-16Dec2015-v1/MINIAOD
+		/ZeroBias4/Run2015C_25ns-05Oct2015-v1/MINIAOD-->/ZeroBias4/Run2015C_25ns-16Dec2015-v1/MINIAOD
+		/ZeroBias5/Run2015C_25ns-05Oct2015-v1/MINIAOD-->/ZeroBias5/Run2015C_25ns-16Dec2015-v1/MINIAOD
+		/ZeroBias6/Run2015C_25ns-05Oct2015-v2/MINIAOD-->/ZeroBias6/Run2015C_25ns-16Dec2015-v1/MINIAOD
+		/ZeroBias7/Run2015C_25ns-05Oct2015-v2/MINIAOD-->/ZeroBias7/Run2015C_25ns-16Dec2015-v1/MINIAOD
+		/ZeroBias8/Run2015C_25ns-05Oct2015-v1/MINIAOD-->/ZeroBias8/Run2015C_25ns-16Dec2015-v1/MINIAOD
+		/ZeroBias/Run2015C_25ns-05Oct2015-v1/MINIAOD-->/ZeroBias/Run2015C_25ns-16Dec2015-v1/MINIAOD
+
+		/L1MinimumBiasHF1/Run2015C_25ns-05Oct2015-v2/MINIAOD-->/L1MinimumBiasHF1/Run2015C_25ns-16Dec2015-v1/MINIAOD						--- done
+				/store/data/Run2015C_25ns/L1MinimumBiasHF1/MINIAOD/05Oct2015-v2/20000/002D6C25-A28A-E511-97E6-0CC47A78A408.root
+					-->/store/data/Run2015C_25ns/L1MinimumBiasHF1/MINIAOD/16Dec2015-v1/00000/5CC2B5AD-21B6-E511-8902-002590A80E08.root
+		/L1MinimumBiasHF2/Run2015C_25ns-05Oct2015-v1/MINIAOD-->/L1MinimumBiasHF2/Run2015C_25ns-16Dec2015-v1/MINIAOD						--- done (2 f)
+		/L1MinimumBiasHF3/Run2015C_25ns-05Oct2015-v2/MINIAOD-->/L1MinimumBiasHF3/Run2015C_25ns-16Dec2015-v1/MINIAOD						--- done (2 f)
+		/L1MinimumBiasHF4/Run2015C_25ns-05Oct2015-v1/MINIAOD-->/L1MinimumBiasHF4/Run2015C_25ns-16Dec2015-v1/MINIAOD						--- done
+		/L1MinimumBiasHF5/Run2015C_25ns-05Oct2015-v1/MINIAOD-->/L1MinimumBiasHF5/Run2015C_25ns-16Dec2015-v1/MINIAOD						--- done
+		/L1MinimumBiasHF6/Run2015C_25ns-05Oct2015-v3/MINIAOD-->/L1MinimumBiasHF6/Run2015C_25ns-16Dec2015-v1/MINIAOD						--- done
+		/L1MinimumBiasHF7/Run2015C_25ns-05Oct2015-v2/MINIAOD-->/L1MinimumBiasHF7/Run2015C_25ns-16Dec2015-v1/MINIAOD						--- done
+		/L1MinimumBiasHF8/Run2015C_25ns-05Oct2015-v1/MINIAOD-->/L1MinimumBiasHF8/Run2015C_25ns-16Dec2015-v1/MINIAOD						--- done
+		/L1MinimumBias/Run2015C_25ns-05Oct2015-v2/MINIAOD-->/L1MinimumBias/Run2015C_25ns-16Dec2015-v1/MINIAOD
+
+		/FSQJets3/Run2015C_25ns-05Oct2015-v1/MINIAOD-->/FSQJets3/Run2015C_25ns-16Dec2015-v1/MINIAOD											--- done(all?)
+			/store/data/Run2015C_25ns/FSQJets3/MINIAOD/05Oct2015-v1/40000/002EB739-1076-E511-AACD-002590596468.root
+				-->/store/data/Run2015C_25ns/FSQJets3/MINIAOD/16Dec2015-v1/50000/002FBD2D-AEAF-E511-BB6D-00261894386F.root
+
+___CMS Totem Run #CMS totem (CMSSW_7_4_15, GT 74X_dataRun2_Prompt_v4  --> CMSSW_7_6_3, GT 76X_dataRun2_v15)
+	Cert_259152-259431_13TeV_PromptReco_Collisions15_25ns_Totem_JSON.txt
+
+		/ZeroBias1/Run2015D-PromptReco-v4/MINIAOD-->/ZeroBias1/Run2015D-16Dec2015-v1/MINIAOD
+				/store/data/Run2015D/ZeroBias1/MINIAOD/PromptReco-v4/000/259/626/00000/02ED4D65-B57A-E511-9E94-02163E011802.root
+					-->/store/data/Run2015D/ZeroBias1/MINIAOD/16Dec2015-v1/10000/00AC2F51-08B1-E511-A25B-0025905C43EC.root
+		/ZeroBias2/Run2015D-PromptReco-v4/MINIAOD-->/ZeroBias2/Run2015D-16Dec2015-v1/MINIAOD
+		/ZeroBias3/Run2015D-PromptReco-v4/MINIAOD-->/ZeroBias3/Run2015D-16Dec2015-v1/MINIAOD
+		/ZeroBias4/Run2015D-PromptReco-v4/MINIAOD-->/ZeroBias4/Run2015D-16Dec2015-v1/MINIAOD
+		/ZeroBias5/Run2015D-PromptReco-v3/MINIAOD-->/ZeroBias5/Run2015D-16Dec2015-v1/MINIAOD
+		/ZeroBias6/Run2015D-PromptReco-v3/MINIAOD-->/ZeroBias6/Run2015D-16Dec2015-v1/MINIAOD
+		/ZeroBias7/Run2015D-PromptReco-v3/MINIAOD-->/ZeroBias7/Run2015D-16Dec2015-v1/MINIAOD
+		/ZeroBias8/Run2015D-PromptReco-v3/MINIAOD-->/ZeroBias8/Run2015D-16Dec2015-v1/MINIAOD
+		/ZeroBias/Run2015D-PromptReco-v4/MINIAOD-->/ZeroBias/Run2015D-16Dec2015-v1/MINIAOD
+
+		/L1MinimumBiasHF1/Run2015D-PromptReco-v4/MINIAOD-->/L1MinimumBiasHF1/Run2015D-16Dec2015-v1/MINIAOD									--- done
+				/store/data/Run2015D/L1MinimumBiasHF1/MINIAOD/PromptReco-v4/000/258/763/00000/823DF8F4-7172-E511-973B-02163E0122EB.root
+					-->/store/data/Run2015D/L1MinimumBiasHF1/MINIAOD/16Dec2015-v1/20000/0021679E-11A9-E511-870E-0CC47A4C8F0A.root
+		/L1MinimumBiasHF2/Run2015D-PromptReco-v4/MINIAOD-->/L1MinimumBiasHF2/Run2015D-16Dec2015-v1/MINIAOD									--- done (2 f)
+		/L1MinimumBiasHF3/Run2015D-PromptReco-v4/MINIAOD-->/L1MinimumBiasHF3/Run2015D-16Dec2015-v1/MINIAOD									--- done
+		/L1MinimumBiasHF4/Run2015D-PromptReco-v4/MINIAOD-->/L1MinimumBiasHF4/Run2015D-16Dec2015-v1/MINIAOD									--- done
+		/L1MinimumBiasHF5/Run2015D-PromptReco-v4/MINIAOD-->/L1MinimumBiasHF5/Run2015D-16Dec2015-v1/MINIAOD									--- done
+		/L1MinimumBiasHF6/Run2015D-PromptReco-v4/MINIAOD-->/L1MinimumBiasHF6/Run2015D-16Dec2015-v1/MINIAOD									--- done
+		/L1MinimumBiasHF7/Run2015D-PromptReco-v4/MINIAOD-->/L1MinimumBiasHF7/Run2015D-16Dec2015-v1/MINIAOD									--- done
+		/L1MinimumBiasHF8/Run2015D-PromptReco-v4/MINIAOD-->/L1MinimumBiasHF8/Run2015D-16Dec2015-v1/MINIAOD									--- done
+		/L1MinimumBias/Run2015D-PromptReco-v4/MINIAOD-->/L1MinimumBiasHF/Run2015D-16Dec2015-v1/MINIAOD
+
+		/FSQJets3/Run2015D-PromptReco-v4/MINIAOD-->/FSQJets3/Run2015D-16Dec2015-v1/MINIAOD													--- done(all?)
+				/store/data/Run2015D/FSQJets3/MINIAOD/PromptReco-v4/000/258/759/00000/CCDFA53E-7572-E511-AF5C-02163E012758.root
+					-->/store/data/Run2015D/FSQJets3/MINIAOD/16Dec2015-v1/50000/005F6405-1FAE-E511-AC03-0025905A60E0.root
+
+___VdM scan #VdM may (CMSSW_8_0_10_patch1, GT = 80X_dataRun2_Prompt_v8)
+	(где-то 15нб с обычных forward-backward триггеров, много minBias)
+	Cert_271036-274240_13TeV_PromptReco_Collisions16_JSON_LowPU.txt
+
+		/ZeroBias/Run2016B-PromptReco-v2/MINIAOD
+			/store/data/Run2016B/ZeroBias/MINIAOD/PromptReco-v1/000/272/023/00000/7AB06F8F-D40F-E611-AFC0-02163E01447B.root
+		/ZeroBias0/Run2016B-PromptReco-v2/MINIAOD
+		/ZeroBias1/Run2016B-PromptReco-v2/MINIAOD
+		/ZeroBias2/Run2016B-PromptReco-v2/MINIAOD
+		/ZeroBias3/Run2016B-PromptReco-v2/MINIAOD
+		/ZeroBias4/Run2016B-PromptReco-v2/MINIAOD
+		/ZeroBias5/Run2016B-PromptReco-v2/MINIAOD
+		/ZeroBias6/Run2016B-PromptReco-v2/MINIAOD
+		/ZeroBias7/Run2016B-PromptReco-v2/MINIAOD
+		/ZeroBias8/Run2016B-PromptReco-v2/MINIAOD
+
+		/L1MinimumBias/Run2016B-PromptReco-v2/MINIAOD	--- исключено, т.к. не пересекается с JSON
+			/store/data/Run2016B/L1MinimumBias/MINIAOD/PromptReco-v2/000/273/150/00000/9025C4F7-D719-E611-B148-02163E01465E.root
+		/L1MinimumBias0/Run2016B-PromptReco-v2/MINIAOD	--- done
+		/L1MinimumBias1/Run2016B-PromptReco-v2/MINIAOD	--- done (6 jobs failed)
+		/L1MinimumBias2/Run2016B-PromptReco-v2/MINIAOD	--- done (8 jobs failed)
+		/L1MinimumBias3/Run2016B-PromptReco-v2/MINIAOD	--- done (3 jobs failed)
+		/L1MinimumBias4/Run2016B-PromptReco-v2/MINIAOD	--- done 
+		/L1MinimumBias5/Run2016B-PromptReco-v2/MINIAOD	--- done 
+		/L1MinimumBias6/Run2016B-PromptReco-v2/MINIAOD	--- done (1 job failed)
+		/L1MinimumBias7/Run2016B-PromptReco-v2/MINIAOD	--- done (1 job failed)
+		/L1MinimumBias8/Run2016B-PromptReco-v2/MINIAOD	--- done 
+		/L1MinimumBias9/Run2016B-PromptReco-v2/MINIAOD	--- done
+		/MinimumBias/Run2016B-PromptReco-v2/MINIAOD		--- исключено, т.к. не пересекается с JSON
+
+		/FSQJets/Run2016B-PromptReco-v2/MINIAOD			--- done
+			/store/data/Run2016B/FSQJets/MINIAOD/PromptReco-v2/000/273/150/00000/E099BFE2-D719-E611-8E71-02163E014476.root
+
+3. Triggers to use
+python2.6 python/TriggersDisplay.py
+https://cmsweb.cern.ch/confdb/  - браузер триггеров
+https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/TriggerRunListing
+https://cmswbm.web.cern.ch/cmswbm/cmsdb/servlet/RunSummary
+	HLT_DiPFJet15_NoCaloMatched_v2 (presvale 10, 3 nb; prescale 1, 684 nb)
+	HLT_DiPFJet15_FBEta2_NoCaloMatched_v2 (prescale 1, 47,7 nb ; 0)
+	HLT_DiPFJet15_FBEta3_NoCaloMatched_v2 (0; 0)
+	HLT_DiPFJet15_NoCaloMatched_v1 (for 2016 VdM May - 2.8nb, prescale 15, нет переднего триггера)
+	HLT_DiPFJet15_FBEta3_NoCaloMatched_v1 (for 2016 VdM May - )
+
+4. Cuts to use for skimming data and to use for analysis
+
+5. Global tag for JEC and JER (config dataset=/*/*/*)
+	со страницы - https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookMiniAOD
+
+	2015_DATA - GT 74X_dataRun2_v5 (74X_dataRun2_reMiniAOD_v1) updated JES wrt the version used to produce this dataset
+	(for 25ns it has JECs_V6, same as in 74X_dataRun2_v5)
+
+	Можно обновить все датасеты и ГТ на ререко от конца года
+	DAS query: dataset=/*/*16Dec2015*/MINIAOD
+	Produced with: 7_6_3; Global tag 76X_dataRun2_v15
+	Readable with 76X releases from 7_6_3 or later
+	Covers the whole 2015 dataset
+
+	2016_DATA - 80X_dataRun2_Prompt_v8 (JEC not defined, stored triggers prescales are NOT CORRECT)
+
+	Описание данных 2015 года - https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookMiniAOD2015
+	Описание данных 2016 года - https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookMiniAOD2016
+	Также описание доступа ко всему, включая МК
+	Более подробное описание ГТ и их компонентов, а также ГТ для МК - https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideFrontierConditions
+
+6. Вытащить неопределенности
+текстовые файлы с поправками https://twiki.cern.ch/twiki/bin/view/CMS/JECDataMC
+процедура https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideCMSDataAnalysisSchoolJetAnalysis#How_to_apply_JEC
+
+7. JER и вообще детали про струи
+https://twiki.cern.ch/twiki/bin/viewauth/CMS/JetEnergyScale
