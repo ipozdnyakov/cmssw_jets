@@ -4,39 +4,14 @@ This project contains a code  of a CMSSW  analyzer for extracting jets from MINI
 Analyzer was created by 'mkedanlzr' command and contains one plugin - MyJetAnalyzer.cc
 Also crab.py configuration for CRAB3 and JSON files with good lumisections are included.
 
-2. DATASETS
+2. DATASETS (2016, CMSSW_8_0_6)
 
-Three periods of low-pile-up 13 TeV data taking were analysed.
+One period of 2016 low-pile-up 13 TeV data taking were analysed.
 
-1) ___VdM scan #VdM august (CMSSW_7_4_14, GT 74X_dataRun2_v4  --> CMSSW_7_6_3, GT 76X_dataRun2_v15)
-   Cert_254986-255031_13TeV_PromptReco_Collisions15_LOWPU_25ns_JSON.txt
+1) ___VdM scan #VdM may (CMSSW_8_0_10_patch1, GT = 80X_dataRun2_Prompt_v8)
 
-		/L1MinimumBiasHF1/Run2015C_25ns-16Dec2015-v1/MINIAOD
-		/L1MinimumBiasHF2/Run2015C_25ns-16Dec2015-v1/MINIAOD (2 jobs failed)
-		/L1MinimumBiasHF3/Run2015C_25ns-16Dec2015-v1/MINIAOD (2 jobs failed)
-		/L1MinimumBiasHF4/Run2015C_25ns-16Dec2015-v1/MINIAOD
-		/L1MinimumBiasHF5/Run2015C_25ns-16Dec2015-v1/MINIAOD
-		/L1MinimumBiasHF6/Run2015C_25ns-16Dec2015-v1/MINIAOD
-		/L1MinimumBiasHF7/Run2015C_25ns-16Dec2015-v1/MINIAOD
-		/L1MinimumBiasHF8/Run2015C_25ns-16Dec2015-v1/MINIAOD
+!!! Need to be reprocessed with GT 80X_dataRun2_ICHEP16_repro_v0 (or 80X_dataRun2_Prompt_v14), JEC Spring16_25nsV6_DATA.tar.gz, CMSSW_8_0_10
 
-		/FSQJets3/Run2015C_25ns-16Dec2015-v1/MINIAOD
-
-2) ___CMS Totem Run #CMS totem (CMSSW_7_4_15, GT 74X_dataRun2_Prompt_v4  --> CMSSW_7_6_3, GT 76X_dataRun2_v15)
-	 Cert_259152-259431_13TeV_PromptReco_Collisions15_25ns_Totem_JSON.txt
-
-    /L1MinimumBiasHF1/Run2015D-16Dec2015-v1/MINIAOD
-		/L1MinimumBiasHF2/Run2015D-16Dec2015-v1/MINIAOD	(2 jobs failed)
-		/L1MinimumBiasHF3/Run2015D-16Dec2015-v1/MINIAOD
-		/L1MinimumBiasHF4/Run2015D-16Dec2015-v1/MINIAOD
-		/L1MinimumBiasHF5/Run2015D-16Dec2015-v1/MINIAOD
-		/L1MinimumBiasHF6/Run2015D-16Dec2015-v1/MINIAOD
-		/L1MinimumBiasHF7/Run2015D-16Dec2015-v1/MINIAOD
-		/L1MinimumBiasHF8/Run2015D-16Dec2015-v1/MINIAOD
-
-    /FSQJets3/Run2015D-16Dec2015-v1/MINIAOD
-
-3) ___VdM scan #VdM may (CMSSW_8_0_10_patch1, GT = 80X_dataRun2_Prompt_v8)
 	 Cert_271036-274240_13TeV_PromptReco_Collisions16_JSON_LowPU.txt
 
 		/L1MinimumBias0/Run2016B-PromptReco-v2/MINIAOD
@@ -52,9 +27,5 @@ Three periods of low-pile-up 13 TeV data taking were analysed.
 
 		/FSQJets/Run2016B-PromptReco-v2/MINIAOD
 
-3. BRANCHES
-
-Branches contains differen code and configurations for 2015 and 2016 data
-
-/CMSSW_7_6_3 - for 2015 data
-/CMSSW_8_0_6 - for 2016 data
+For up to date GLOBAL TAGS : https://twiki.cern.ch/twiki/bin/view/CMSPublic/SWGuideFrontierConditions#Global_Tags_for_2016_data_re_rec
+For up to dat JEC : https://twiki.cern.ch/twiki/bin/viewauth/CMS/JECDataMC#Recommended_for_Data
