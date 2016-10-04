@@ -5,8 +5,16 @@ Analyzer was created by 'mkedanlzr' command and contains one plugin - MyJetAnaly
 code should be used from CMSSW_X_X_X/src/analyzer/analyzer/>
 Also crab.py configuration for CRAB3 and JSON files with good lumisections are included.
 
-More detailed information on INPUT parameters for the analysis in INPUT_INFO 
-(but some of text is in Russian)
+To start use the code - 
+	1) Create CMSSW area 
+		>cmsrel CMSSW_8_0_6
+		>cd CMSSW_8_0_6/src
+	2) Create MyJetAnalyzer (name is essential)
+		>mkdir MyJetAnalyzer
+		>cd MyJetAnalyzer
+		>mkedanlzr MyJetAnalyzer
+	3) Compile
+		>scramv1 b
 
 2. DATASETS (2015, CMSSW_7_6_3)
 
