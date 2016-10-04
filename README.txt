@@ -4,6 +4,17 @@ This project contains a code  of a CMSSW  analyzer for extracting jets from MINI
 Analyzer was created by 'mkedanlzr' command and contains one plugin - MyJetAnalyzer.cc
 Also crab.py configuration for CRAB3 and JSON files with good lumisections are included.
 
+To start use the code - 
+	1) Create CMSSW area 
+		>cmsrel CMSSW_8_0_6
+		>cd CMSSW_8_0_6/src
+	2) Create MyJetAnalyzer (name is essential)
+		>mkdir MyJetAnalyzer
+		>cd MyJetAnalyzer
+		>mkedanlzr MyJetAnalyzer
+	3) Compile
+		>scramv1 b
+
 2. DATASETS (2016, CMSSW_8_0_6)
 
 One period of 2016 low-pile-up 13 TeV data taking were analysed.
